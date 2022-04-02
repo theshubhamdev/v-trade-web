@@ -1,0 +1,59 @@
+.root{
+    background: #0a0a0a;
+    color: #fff;
+    padding: 5px 10px;
+    vertical-align: middle;
+}
+.stockDetails {
+    display: flex;
+    justify-content: space-between;
+}
+.stockNameWithPill {
+    display: flex;
+    flex-direction: column;
+}
+.stockName {
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+.codeSegment {
+    font-size: 14px;
+    line-height: 20px;
+    color: #6A6A6A;
+}
+.stockPriceBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+@media screen and (max-width: 768px){
+.price .rupeeSymbol {
+    font-size: 16px;
+}
+}
+.price .rupeeSymbol {
+    font-size: 24px;
+    color: #fff;
+    margin-right: 4px;
+}
+.stockPriceBlock .stats {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+}
+
+.positive {
+    color: #148564;
+}
+.stockPriceBlock .disclaimer {
+    font-size: 10px;
+    line-height: 16px;
+    text-align: right;
+    color: #6A6A6A;
+}
